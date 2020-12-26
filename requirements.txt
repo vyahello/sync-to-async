@@ -1,0 +1,11 @@
+aiorequest
+bs4
+dataclasses
+enforce-pep8
+uyaml
+urequest
+pytest
+pytest-cov
+mypy
+black
+flake8
