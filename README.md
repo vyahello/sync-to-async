@@ -29,7 +29,7 @@ git clone git@github.com:vyahello/sync-to-async.git
 python -m lib
 ```
 
-**[⬆ back to top](#asynchronous)**
+**[⬆ back to top](#synchronous-to-asynchronous-code-base)**
 
 ## Development notes
 
@@ -75,5 +75,4 @@ I would highly appreciate any contribution and support. If you are interested to
 7. Push to the branch (git push origin feature/fooBar)
 8. Create a new Pull Request
 
-
-**[⬆ back to top](#asynchronous)**
+**[⬆ back to top](#synchronous-to-asynchronous-code-base)**
