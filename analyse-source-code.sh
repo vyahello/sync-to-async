@@ -49,14 +49,6 @@ DOC
 }
 
 
-check-unittests() {
-:<<DOC
-    Runs unittests using "pytest" framework
-DOC
-    pretty-printer-box "unitests" && pytest
-}
-
-
 is-passed() {
 :<<DOC
     Checks if code assessment is passed
@@ -79,7 +71,6 @@ DOC
       check-black && \
       check-mypy && \
       check-flake && \
-      check-unittests && \
       is-passed
     )
 }

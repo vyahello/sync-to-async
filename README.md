@@ -4,7 +4,7 @@
 [![Checked with flake8](https://img.shields.io/badge/flake8-checked-blue)](http://flake8.pycqa.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
 
-# Synchronous to Asynchronous code base
+# Synchronous to Asynchronous optimization
 
 > Describes how we could optimize our python code based on built-in asynchronous approach.
 
@@ -26,21 +26,13 @@
 
 ```bash
 git clone git@github.com:vyahello/sync-to-async.git
-python demo/async.py  # asynchronous sample
+python demo/sync.py  # execution takes around 10 seconds
+python demo/async.py  # execution takes less than 1 second
 ```
 
-**[⬆ back to top](#synchronous-to-asynchronous-code-base)**
+**[⬆ back to top](#synchronous-to-asynchronous-optimization)**
 
 ## Development notes
-
-### Testing
-
-Generally, `pytest` tool is used to organize testing procedure.
-
-Please follow next command to run unittests:
-```bash
-pytest
-```
 
 ### CI
 
@@ -75,4 +67,4 @@ I would highly appreciate any contribution and support. If you are interested to
 7. Push to the branch (git push origin feature/fooBar)
 8. Create a new Pull Request
 
-**[⬆ back to top](#synchronous-to-asynchronous-code-base)**
+**[⬆ back to top](#synchronous-to-asynchronous-optimization)**
