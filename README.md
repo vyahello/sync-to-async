@@ -25,6 +25,7 @@
 
 ```bash
 git clone git@github.com:vyahello/sync-to-async.git
+pip install -r requirements.txt
 python demo/sync.py
 # Done in 9.23 sec.
 python demo/async.py
