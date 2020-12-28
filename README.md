@@ -17,7 +17,6 @@
 ### Development
 
 - [travis](https://travis-ci.org/)
-- [pytest](https://pypi.org/project/pytest/)
 - [black](https://black.readthedocs.io/en/stable/)
 - [mypy](http://mypy.readthedocs.io/en/latest)
 - [flake8](http://flake8.pycqa.org/en/latest/)
@@ -38,7 +37,7 @@ python demo/async.py
 
 ### CI
 
-Project has Travis CI integration using [.travis.yml](.travis.yml) file thus code analysis (`black`, `flake8`, `mypy`).
+Project has Travis CI integration using [.travis.yml](.travis.yml) file to run code analysis (`black`, `flake8`, `mypy`).
 
 To be able to run code analysis, please execute command below:
 ```bash

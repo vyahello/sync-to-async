@@ -1,9 +1,6 @@
 aiohttp
 bs4
 colorama
-urequest
-pytest
-pytest-cov
 mypy
 black
 flake8
