@@ -1,5 +1,5 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Build Status](https://travis-ci.org/vyahello/asynchronous.svg?branch=master)](https://travis-ci.org/vyahello/asynchronous)
+[![Build Status](https://travis-ci.org/vyahello/asynchronous.svg?branch=master)](https://travis-ci.org/vyahello/sync-to-async)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Checked with flake8](https://img.shields.io/badge/flake8-checked-blue)](http://flake8.pycqa.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
