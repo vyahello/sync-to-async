@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # specifies a set of variables to declare files to be used for code assessment
-PACKAGE="lib"
+PACKAGE="demo"
 
 # specifies a set of variables to declare CLI output color
 FAILED_OUT="\033[0;31m"

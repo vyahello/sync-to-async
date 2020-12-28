@@ -1,8 +1,5 @@
-aiorequest
+aiohttp
 bs4
-dataclasses
-enforce-pep8
-uyaml
 urequest
 pytest
 pytest-cov

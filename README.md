@@ -26,7 +26,7 @@
 
 ```bash
 git clone git@github.com:vyahello/sync-to-async.git
-python -m lib
+python demo/async.py  # asynchronous sample
 ```
 
 **[⬆ back to top](#synchronous-to-asynchronous-code-base)**
