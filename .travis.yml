@@ -10,7 +10,7 @@ addons:
 install:
   - pip install pip==20.2.3
   - pip install -r requirements.txt -U
-before_script:
+script:
   - ./analyse-source-code.sh
 notifications:
   email: false
