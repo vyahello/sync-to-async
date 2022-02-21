@@ -32,6 +32,41 @@ python demo/async.py
 # Done in 1.06 sec.
 ```
 
+#### Basic difference 
+
+```python
+# sync_sleep.py
+
+import time
+
+
+def sleep(n: int) -> None:
+    time.sleep(3)
+    print(f'finished {n} iteration')
+
+
+def main() -> None:
+    for n in range(10):  # type: int
+        sleep(n)
+```
+
+```python
+# async_sleep.py
+
+import asyncio
+
+
+async def sleep(n: int) -> None:
+    await asyncio.sleep(3)
+    print(f'finished {n} iteration')
+
+
+if __name__ == '__main__':
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(asyncio.gather(*(sleep(i) for i in range(10))))
+```
+
+
 **[⬆ back to top](#synchronous-to-asynchronous-optimization)**
 
 ## Development notes
